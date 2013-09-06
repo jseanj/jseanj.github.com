@@ -69,6 +69,7 @@ ul.posts span {
 }
 
 .site .header h1.title {
+  font-size: 32px;
   display: inline-block;
   margin-bottom: 2em;
 }
@@ -85,7 +86,7 @@ ul.posts span {
 	font-family: monospace;
 	font-size: 15px;
 	color: #aaa;
-	margin-top: -30px;
+	margin-top: -55px;
 }
 
 .site .header a.extra {
