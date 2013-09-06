@@ -81,6 +81,13 @@ ul.posts span {
   color: #000;
 }
 
+.site .header p.blog-subtitle {
+	font-family: monospace;
+	font-size: 15px;
+	color: #aaa;
+	margin-top: -30px;
+}
+
 .site .header a.extra {
   color: #aaa;
   margin-left: 1em;
