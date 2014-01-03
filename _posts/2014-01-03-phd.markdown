@@ -5,6 +5,7 @@ date:   2014-01-03 14:29:27
 categories: jekyll update
 ---
 在网上看到了CMU大牛的Phd总结，贴到这里，觉得好可以去fb上看（https://www.facebook.com/yuandong.tian/notes）
+
 - [-]
 
 这五年最重要的，是渐渐知道了怎么去做一件比较大的事情。
