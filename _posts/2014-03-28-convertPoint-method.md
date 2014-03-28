@@ -10,7 +10,7 @@ categories: jekyll update
 `- (CGPoint)convertPoint:(CGPoint)point fromNode:(SKNode *)node`
 > 将一个节点坐标系中的坐标convert到另一个节点（调用者）坐标系中。**关键**要看这个坐标是在哪个坐标系里表示的。比如，如果你将精灵的位置作为坐标传进来，那么你就需要将精灵的父节点也传进来；如果你传进来的是[0,0]，那么说明你是以该精灵本身作为坐标系，所以你需要将该精灵传进来。
 
-![Alt text](data:image,local://屏幕快照 2014-03-28 下午10.54.36.png)
+![Alt text](http://i.stack.imgur.com/PL5cO.png)
 > 比如，为了得到红色节点在scene坐标系中的位置时：
 
 ```
