@@ -5,7 +5,7 @@ date:   2014-08-15 16:09:27
 categories: jekyll update
 ---
 
-### 闭包引导
+## 闭包引导
 
 Swift中引入了闭包的概念，其实和Block是一样的，我们来简单介绍一下，看下面的函数：
 
@@ -75,7 +75,8 @@ Swift自动为内联函数提供了参数名称缩写功能，你可以使用`$0
 averageOfFunction(3, 4, {$0 * $0}
 ```
 
-### 闭包在Swift中的使用
+
+## 闭包在Swift中的使用
 
 Swift中的`Array`支持三种高阶函数：`map`，`filter`，`reduce`。
 
