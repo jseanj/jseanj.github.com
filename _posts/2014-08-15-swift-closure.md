@@ -30,10 +30,10 @@ func averageSumOfCubes(a: Float, b: Float) -> Float {
 // 我写的版本
 func averageOfFunction(f: (Float)->Float, s:Float...) ->Float {
 	    var result:Float = 0.0
-		    for i in s {
-				        result += f(i)
-						    }
-							    return result / Float(countElements(s))
+		for i in s {
+			result += f(i)
+		}
+		return result / Float(countElements(s))
 }
 
 
@@ -111,8 +111,8 @@ for money in moneyArray {
 var filteredArray : Array<Int> = [] 
 for money in moneyArray {
 	    if (money > 30) {
-			      filteredArray += money
-				      }
+			filteredArray += money
+		}
 }
 
 // filter
@@ -146,9 +146,11 @@ sum = moneyArray.reduce(0,+) //操作符也是函数，因此简化
 
 我们注意到上面两个过程的不同点：初始值和计算方法（加和乘）。`reduce`定义了初始值和计算方法。`func reduce<U>(initial: U, combine: (U, T) -> U) -> U`，它接收一个初始值，参数名叫做`initial`，它接收一个函数，参数名叫做`combine`，主要是将`U`类型的初始元素和`T`类型的元素结合生成一个`U`类型的元素，`reduce`返回一个`U`类型的元素。
 
->注意：
+```
+注意：
 1. `reduce`函数的结果类型和数组的类型可能不同 
 2. 高阶函数作用于大数组时比原始做法更快，因为它们是可以并行的。
+```
 
 下面列出了一些利用闭包难题，用Swift去实现一下吧！
 
