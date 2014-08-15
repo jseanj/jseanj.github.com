@@ -72,5 +72,5 @@ loadWithCompletion { response, data, error in
 ```
 
 参考资料：
-http://numbbbbb.gitbooks.io/-the-swift-programming-language-/chapter2/07_Closures.html#trailing_closures
-http://freecake.yayuhh.com/trailing-closures-in-swift/
+1. http://numbbbbb.gitbooks.io/-the-swift-programming-language-/chapter2/07_Closures.html#trailing_closures
+2. http://freecake.yayuhh.com/trailing-closures-in-swift/
